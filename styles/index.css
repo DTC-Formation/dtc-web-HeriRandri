@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-profile{
+    
+    background-color: hsl(0, 0%, 12%);
+    height: 400px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.card-profile img{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50px;
+}
+.card-profile h3{
+    color:  hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.card-profile .map{
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+}
+.card-profile .status{
+    margin-top: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-profile .button-group{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+button{
+    width: 270px;
+    background-color: hsl(0, 0%, 20%);
+    height: 35px;
+    border: none;
+    border-radius: 05px;
+    color: hsl(0, 0%, 100%) ;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: -05px;
+}
+button:hover {
+    background-color:hsl(75, 94%, 57%) ;
+    color:hsl(0, 0%, 8%) ;
+}
